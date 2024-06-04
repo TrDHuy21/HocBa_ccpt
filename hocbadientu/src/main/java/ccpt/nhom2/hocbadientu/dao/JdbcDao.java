@@ -1,4 +1,4 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

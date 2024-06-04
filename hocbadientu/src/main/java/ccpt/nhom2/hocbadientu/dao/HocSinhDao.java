@@ -1,11 +1,11 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
-import java.util.List;
 
+import ccpt.nhom2.hocbadientu.object.HocSinhObject;
+import ccpt.nhom2.hocbadientu.rowmapper.HocSinhRowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.duwan.hocba.object.HocSinhObject;
-import com.duwan.hocba.rowmapper.HocSinhRowMapper;
+import java.util.List;
 
 @Repository
 public class HocSinhDao extends JdbcDao {

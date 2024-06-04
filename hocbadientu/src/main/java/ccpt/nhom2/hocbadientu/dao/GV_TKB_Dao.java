@@ -1,11 +1,10 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
-import java.util.List;
-
+import ccpt.nhom2.hocbadientu.object.GV_TKB_Object;
+import ccpt.nhom2.hocbadientu.rowmapper.GV_TKB_RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.duwan.hocba.object.GV_TKB_Object;
-import com.duwan.hocba.rowmapper.GV_TKB_RowMapper;
+import java.util.List;
 
 @Repository
 public class GV_TKB_Dao extends JdbcDao {
