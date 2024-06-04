@@ -1,11 +1,10 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
-import java.util.List;
-
+import ccpt.nhom2.hocbadientu.object.LopObject;
+import ccpt.nhom2.hocbadientu.rowmapper.LopRowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.duwan.hocba.object.LopObject;
-import com.duwan.hocba.rowmapper.LopRowMapper;
+import java.util.List;
 
 @Repository
 public class LopDao extends JdbcDao {

@@ -1,9 +1,9 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
+
+import ccpt.nhom2.hocbadientu.object.GiaoVienObject;
+import ccpt.nhom2.hocbadientu.rowmapper.GiaoVienRowMapper;
 import org.springframework.stereotype.Repository;
-
-import com.duwan.hocba.object.GiaoVienObject;
-import com.duwan.hocba.rowmapper.GiaoVienRowMapper;
 
 @Repository
 public class GiaoVienDao extends JdbcDao {

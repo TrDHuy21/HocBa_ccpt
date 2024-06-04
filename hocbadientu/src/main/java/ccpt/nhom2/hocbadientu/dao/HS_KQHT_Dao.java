@@ -1,12 +1,11 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
+
+import ccpt.nhom2.hocbadientu.object.HS_KQHT_Object;
+import ccpt.nhom2.hocbadientu.rowmapper.HS_KQHT_RowMapper;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.springframework.stereotype.Repository;
-
-import com.duwan.hocba.object.HS_KQHT_Object;
-import com.duwan.hocba.rowmapper.HS_KQHT_RowMapper;
 
 @Repository
 public class HS_KQHT_Dao extends JdbcDao {

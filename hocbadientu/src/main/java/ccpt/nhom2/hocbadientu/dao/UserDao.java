@@ -1,12 +1,11 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
+
+import ccpt.nhom2.hocbadientu.object.UserObject;
+import ccpt.nhom2.hocbadientu.rowmapper.UserRowMapper;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Date;
 import java.util.List;
-
-import org.springframework.stereotype.Repository;
-
-import com.duwan.hocba.object.UserObject;
-import com.duwan.hocba.rowmapper.UserRowMapper;
 
 @Repository
 public class UserDao extends JdbcDao {

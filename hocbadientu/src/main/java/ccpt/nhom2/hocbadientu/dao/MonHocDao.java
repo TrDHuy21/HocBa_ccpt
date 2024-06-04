@@ -1,11 +1,10 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
-import java.util.List;
-
+import ccpt.nhom2.hocbadientu.object.MonHocObject;
+import ccpt.nhom2.hocbadientu.rowmapper.MonHocRowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.duwan.hocba.object.MonHocObject;
-import com.duwan.hocba.rowmapper.MonHocRowMapper;
+import java.util.List;
 
 @Repository
 public class MonHocDao extends JdbcDao{

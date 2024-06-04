@@ -1,9 +1,8 @@
-package com.duwan.hocba.dao;
+package ccpt.nhom2.hocbadientu.dao;
 
+import ccpt.nhom2.hocbadientu.object.PhuHuynhObject;
+import ccpt.nhom2.hocbadientu.rowmapper.PhuHuynhRowMapper;
 import org.springframework.stereotype.Repository;
-
-import com.duwan.hocba.object.PhuHuynhObject;
-import com.duwan.hocba.rowmapper.PhuHuynhRowMapper;
 
 @Repository
 public class PhuHuynhDao extends JdbcDao {
