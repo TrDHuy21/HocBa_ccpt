@@ -1,17 +1,17 @@
-package com.duwan.hocba.controller;
+package ccpt.nhom2.hocbadientu.controller.hocSinh;
 
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
+import ccpt.nhom2.hocbadientu.dao.HS_KQHT_Dao;
+import ccpt.nhom2.hocbadientu.object.HS_KQHT_Object;
+import ccpt.nhom2.hocbadientu.object.HocSinhObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.duwan.hocba.dao.HS_KQHT_Dao;
-import com.duwan.hocba.object.HS_KQHT_Object;
-import com.duwan.hocba.object.HocSinhObject;
 import jakarta.servlet.http.HttpSession;
 
 @Controller

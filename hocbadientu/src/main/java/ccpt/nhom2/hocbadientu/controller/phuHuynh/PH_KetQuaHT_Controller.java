@@ -1,19 +1,19 @@
-package com.duwan.hocba.controller;
+package ccpt.nhom2.hocbadientu.controller.phuHuynh;
 
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
+import ccpt.nhom2.hocbadientu.dao.HS_KQHT_Dao;
+import ccpt.nhom2.hocbadientu.dao.HocSinhDao;
+import ccpt.nhom2.hocbadientu.object.HS_KQHT_Object;
+import ccpt.nhom2.hocbadientu.object.HocSinhObject;
+import ccpt.nhom2.hocbadientu.object.PhuHuynhObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.duwan.hocba.dao.HS_KQHT_Dao;
-import com.duwan.hocba.dao.HocSinhDao;
-import com.duwan.hocba.object.HS_KQHT_Object;
-import com.duwan.hocba.object.HocSinhObject;
-import com.duwan.hocba.object.PhuHuynhObject;
 import jakarta.servlet.http.HttpSession;
 
 @Controller

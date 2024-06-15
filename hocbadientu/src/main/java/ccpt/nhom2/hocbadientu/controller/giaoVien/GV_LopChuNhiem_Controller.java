@@ -1,18 +1,20 @@
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+
+import ccpt.nhom2.hocbadientu.dao.HS_KQHT_Dao;
+import ccpt.nhom2.hocbadientu.dao.HocSinhDao;
+import ccpt.nhom2.hocbadientu.dao.MonHocDao;
+import ccpt.nhom2.hocbadientu.object.GiaoVienObject;
+import ccpt.nhom2.hocbadientu.object.HS_KQHT_Object;
+import ccpt.nhom2.hocbadientu.object.HocSinhObject;
+import ccpt.nhom2.hocbadientu.object.MonHocObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.duwan.hocba.dao.HS_KQHT_Dao;
-import com.duwan.hocba.dao.HocSinhDao;
-import com.duwan.hocba.dao.MonHocDao;
-import com.duwan.hocba.object.GiaoVienObject;
-import com.duwan.hocba.object.HS_KQHT_Object;
-import com.duwan.hocba.object.HocSinhObject;
-import com.duwan.hocba.object.MonHocObject;
+
 
 import jakarta.servlet.http.HttpSession;
 
